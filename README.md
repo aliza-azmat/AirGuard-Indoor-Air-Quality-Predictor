@@ -75,19 +75,34 @@ Three additional features were extracted:
 
 After preprocessing, the dataset contained **13 input features**.
 
-### Final Input Features
+---
 
-```text
-Temperature (C)
-Humidity (%)
-Pressure (hPa)
-Gas Resistance (Ohms)
-PM2.5
-TVOC (ppb)
-eCO2 (ppm)
-VOC Index
-MQ135 Value
-Voltage
-Hour
-Minute
-Day
+## 🌐 Streamlit Application
+
+AirGuard is deployed as an interactive Streamlit web application.
+
+Users can enter environmental and sensor measurements and receive an estimated PPM prediction from the trained Random Forest model.
+
+### 🚀 Live Application
+
+**[Try AirGuard — Live Streamlit App](https://aliza-azmat-airguard-indoor-air-quality-predictor-app-rv5mze.streamlit.app/)**
+
+---
+
+### Main Inputs
+
+- Temperature
+- Humidity
+- Pressure
+- Gas Resistance
+- PM2.5
+- TVOC
+- eCO2
+- VOC Index
+- MQ135 Value
+- Voltage
+- Hour
+- Minute
+- Day
+
+- ---
